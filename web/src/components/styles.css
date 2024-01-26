@@ -1,5 +1,26 @@
-/* nav {
+nav {
+    height: 100px;
+    width: 70%;
+    box-shadow: 5px 5px 10px #888888;
+    text-align: center;
     display: flex;
     align-items: center;
 }
-nav ul  */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+ nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+nav img {
+    margin-right: 50px;
+}
