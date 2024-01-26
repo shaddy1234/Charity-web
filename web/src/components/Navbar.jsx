@@ -5,14 +5,17 @@ function Navbar() {
   return (
     <div>
         <nav>
+        <img src="./logo.png" alt="logo" />
             <ul>
-                <li>About</li>
-                <li>Our Work</li>
-                <li>Contact</li>
-                <li>Projects</li>
+                
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our Work</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#"><button>DONATE</button></a></li>
         </ul>
-        <button>DONATE</button>
         </nav>
+        
     </div>
   )
 }
